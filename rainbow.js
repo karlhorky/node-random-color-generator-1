@@ -4,12 +4,39 @@ const colors = require('colors');
 const chalk = require('chalk');
 let hue_c = '';
 let hue_l = '';
+let check_1 = 0;
+let check_2 = 0;
 //const hue_c = process.argv[2];
 //const hue_l = process.argv[3];
 let str = '';
 let str1 = '';
 let str2 = '';
+/*
+const arr_col = [
+  'red',
+  'orange',
+  'yellow',
+  'green',
+  'blue',
+  'purple',
+  'pink',
+  'monochrome',
+];
 
+const arr_lum = ['bright', 'light', 'dark'];
+
+for (let i = 0; i < 8; i++) {
+  if ((process.argv[2] = arr_col[i])) {
+    check_1 = 1;
+  }
+}
+
+for (let i = 0; i < 3; i++) {
+  if ((process.argv[3] = arr_lum[i])) {
+    check_2 = 1;
+  }
+}
+*/
 //init string
 for (let i = 0; i < 31; i++) {
   str += '#';
