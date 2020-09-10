@@ -4,5 +4,10 @@
   "main": "index.js",
   "repository": "https://github.com/anastasiia-lk/node-random-color-generator.git",
   "author": "Anastasiia Duplishcheva <a.duplishcheva@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "colors": "^1.4.0",
+    "randomcolor": "^0.6.2"
+  }
 }
